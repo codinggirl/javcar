@@ -1,0 +1,19 @@
+language: node_js
+
+cache:
+  - npm
+
+node_js:
+  - 8
+  - 10
+  - node
+
+jobs:
+  fast_finish: true
+  include:
+    - stage: codecov
+      node_js: 12
+      before_install:
+        - npm install -g codecov
+      after_script:
+        - codecov
