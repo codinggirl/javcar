@@ -2,6 +2,9 @@
 
 Car based on JAV CN technology.
 
+[![Build Status](https://travis-ci.com/codinggirl/javcar.svg?branch=master)](https://travis-ci.com/codinggirl/javcar)
+[![codecov](https://codecov.io/gh/codinggirl/javcar/branch/master/graph/badge.svg)](https://codecov.io/gh/codinggirl/javcar)
+
 > Note: This if fork of <https://github.com/Programming-With-Love/dd1024>.
 > But this folk now maintained by another team.
 
