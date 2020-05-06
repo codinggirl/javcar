@@ -2,9 +2,10 @@
   "name": "javcar",
   "private": true,
   "version": "2.0.1",
-  "description": "Car based on JAV CN technology",
+  "description": "A fast old-driver cli tool for car info mining, with your own bring car api",
   "bin": {
-    "javcar": "lib/cli.js"
+    "javcar": "lib/cli.js",
+    "jav": "lib/cli.js"
   },
   "scripts": {
     "start": "node lib/cli.js PRED-184",
@@ -18,9 +19,7 @@
   "author": "d1y",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.0",
-    "debug": "^4.1.1",
-    "node-html-parser": "^1.1.16"
+    "axios": "^0.19.0"
   },
   "devDependencies": {
     "@types/jest": "^24.0.21",

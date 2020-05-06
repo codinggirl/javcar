@@ -1,25 +1,24 @@
 # javcar
 
-Car based on JAV CN technology.
+A fast old-driver cli tool for car info mining, with your own bring car api.
 
 [![Build Status](https://travis-ci.com/codinggirl/javcar.svg?branch=master)](https://travis-ci.com/codinggirl/javcar)
 [![codecov](https://codecov.io/gh/codinggirl/javcar/branch/master/graph/badge.svg)](https://codecov.io/gh/codinggirl/javcar)
 
-> Note: This repo is folk from <https://github.com/Programming-With-Love/dd1024>,
-> and become a standalone one.
+BREAKING CHANGE:
+
+From version 3, this cli use an backend api, you should have a api before using.
 
 ## Usage
-
-To get started, please install `mpv` first. See <https://mpv.io/> for more information.
-
-Then, get the source of `javcar`, run the scripts.
 
 ```
 # install (just once)
 $ npm install <git repo url>
 
 # run it (every time you want to use)
-$ javcar <CAR LICENSE ID>
+$ javcar info <CAR LICENSE ID>
+
+# run `javcar help` for more information.
 ```
 
 ## Development
@@ -38,7 +37,9 @@ $ npm link
 $ npm start
 
 # run the command line
-$ javcar <CAR LICENSE ID>
+$ javcar info <CAR LICENSE ID>
+
+# run `javcar help` for more information.
 ```
 
 ## License
