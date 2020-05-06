@@ -1,7 +1,7 @@
 {
   "name": "javcar",
   "private": true,
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "A fast old-driver cli tool for car info mining, with your own bring car api",
   "bin": {
     "javcar": "lib/cli.js",
