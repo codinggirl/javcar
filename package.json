@@ -4,7 +4,7 @@
   "version": "2.0.0",
   "description": "Car based on JAV CN technology",
   "bin": {
-    "javcar": "bin/javcar.js"
+    "javcar": "lib/cli.js"
   },
   "scripts": {
     "start": "node lib/cli.js PRED-184",
