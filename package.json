@@ -19,7 +19,7 @@
   "author": "d1y",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.0"
+    "axios": "^0.19.2"
   },
   "devDependencies": {
     "@types/jest": "^24.0.21",
