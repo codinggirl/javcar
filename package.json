@@ -1,7 +1,7 @@
 {
   "name": "javcar",
   "private": true,
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Car based on JAV CN technology",
   "bin": {
     "javcar": "lib/cli.js"
